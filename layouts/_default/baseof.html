@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Index.html File</title>
 </head>
-<header>
-  This is the header
-</header>
+
+{{ partial "header.html" }}
+
 <body>
   {{ block "main" . }}
   {{ end }}
 </body>
+
 <footer>
   this is the footer
 </footer>
