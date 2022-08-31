@@ -1,3 +1,9 @@
 {{ define "main" }}
-  <p>This is the body of list.html</p>
+
+  <p>This is the body of list.html test</p>
+  
+  {{ range .Pages.ByPublishDate }}
+    <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+  {{ end }}
+
 {{ end }}
