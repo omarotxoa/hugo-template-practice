@@ -1,0 +1,36 @@
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+  color: white;
+  padding: 1em;
+  min-height: 40vh;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-text p,
+.hero-text button {
+  font-size: 1.5em;
+}
+
+.hero-text a {
+  margin-block-start: 2em;
+  text-decoration: none;
+  padding: 1em 0;
+}
+
+.hero-text button {
+  background-color: white;
+  border: none;
+  width: auto;
+  padding: .5em 2em;
+  color: var(--black);
+}
+
