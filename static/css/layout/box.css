@@ -1,6 +1,5 @@
 .box {
   padding: 1em;
-  border: 1px solid var(--black);
   color: var(--black);
   background-color: white;
 }
